@@ -1,9 +1,14 @@
 class Popular_Items
 {
   late String name;
-  late  String descrip;
-  late double originalPrice;
+   double originalPrice;
   late double discountedPrice;
+
+  Popular_Items({
+    required this.originalPrice,
+    required this.discountedPrice,
+    required this.name
+});
 
 }
 
